@@ -144,10 +144,10 @@ console.log(c);                                     //output 21
 //you can also use a label without asigning a statement and instead use it as a container
 //it can be broken/ ended in the same way as shown previously
 
-block: {
-    console.log("before");
-    break block;
-    console.log("after");
+block: {                                            //start label
+    console.log("before");                          //print "before"
+    break block;                                    //break/ end label 
+    console.log("after");                           //skipped
 };
 
 //-----For ..of loop-----
